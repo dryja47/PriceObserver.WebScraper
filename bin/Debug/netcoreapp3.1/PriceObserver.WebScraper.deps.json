@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PriceObserver.WebScraper/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.4.9.5",
+          "RestSharp": "106.13.0"
+        },
+        "runtime": {
+          "PriceObserver.WebScraper.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.4.9.5": {
+        "runtime": {
+          "lib/Net45/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.4.9.5",
+            "fileVersion": "1.4.9.5"
+          }
+        }
+      },
+      "RestSharp/106.13.0": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.13.0.0",
+            "fileVersion": "106.13.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PriceObserver.WebScraper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.4.9.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zk7zsIaPkyBvYoVDsnx52SbKtvcmo2bcgNBshhSG++RnHMYoh0dqxRuQSznY+w6luiqR35OiHTk1L73SUAGKLw==",
+      "path": "htmlagilitypack/1.4.9.5",
+      "hashPath": "htmlagilitypack.1.4.9.5.nupkg.sha512"
+    },
+    "RestSharp/106.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vwUdmmtC5vtePeNfBWnFcixBF2KjUeVv3ss4ZFzCIkOf7NB7W/9qX8JNZD9DOrz2yGk4AJW8k9znwgPZhnoiNg==",
+      "path": "restsharp/106.13.0",
+      "hashPath": "restsharp.106.13.0.nupkg.sha512"
+    }
+  }
+}
